@@ -1,5 +1,6 @@
 # Intel-Unnati-Industrial-Training-Program-2025
 
+![FLOW MAP.jpeg](https://github.com/MNADITYA05/Intel-Unnati-Industrial-Training-Program-2025/blob/main/ASSETS/FLOW%20MAP.jpeg)
 
 ## System Architecture Overview
 
