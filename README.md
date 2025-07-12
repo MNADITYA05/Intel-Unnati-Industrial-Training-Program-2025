@@ -17,6 +17,18 @@ This architecture enables real-time product authentication, automated quality in
 
 ![WhatsApp Image 2025-07-05 at 03 14 45_629258ff](https://github.com/user-attachments/assets/18fb775a-fd9b-4954-9f8c-a846f95eee53)
 
+## Hardware Implementation
+
+This image showcases the physical implementation of the smart automated product labeling and traceability system, demonstrating the seamless integration of embedded hardware components that bring the workflow architecture to life. At the center of the system is an ESP32-WROOM-32 development board, which serves as the primary microcontroller responsible for orchestrating all hardware interactions and maintaining connectivity with the backend infrastructure.
+
+The system features a high-resolution TFT display that provides real-time feedback to operators, as evidenced by the current screen showing a "MATCHED" status for a successfully verified product. The display presents comprehensive product information including the unique product identifier (A4BNW10020001), manufacturing date (01-06-2023), barcode number (1100100200013), and critically, the AI-determined quality assessment result showing "defective" status. This immediate visual feedback ensures operators can quickly identify product status without requiring additional verification steps.
+
+A compact camera module positioned strategically within the system enables automated image capture for the machine learning pipeline. This camera works in conjunction with the ESP32 to photograph products during the scanning process, providing the visual data necessary for the YOLOv8 defect detection algorithm. The camera's integration allows for hands-free operation where products can be placed in the scanning area and automatically photographed for analysis.
+
+The color-coded wiring system demonstrates the organized approach to component integration, with dedicated connections for power distribution, data communication, and display control. The ESP32's Wi-Fi capabilities enable seamless communication with the Node.js server infrastructure, allowing real-time data exchange between the physical scanning station and the cloud-based verification and AI analysis systems.
+
+This hardware configuration creates a complete scanning workstation that combines barcode reading capabilities, visual inspection through AI-powered image analysis, database verification, and immediate result display. The compact form factor makes it suitable for integration into existing production lines, quality control stations, or warehouse management systems, while the modular design allows for easy maintenance and potential upgrades to individual components as technology evolves.
+
 ![CONFUSION MATRIX.jpeg](https://github.com/MNADITYA05/Intel-Unnati-Industrial-Training-Program-2025/blob/main/ASSETS/CONFUSION%20MATRIX.jpeg)
 
 ![TRAINING RESULTS.jpeg](https://github.com/MNADITYA05/Intel-Unnati-Industrial-Training-Program-2025/blob/main/ASSETS/TRAINING%20RESULTS.jpeg)
