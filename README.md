@@ -72,7 +72,11 @@ The compact form factor makes it suitable for integration into existing producti
 3. **SPI Display**: Connect the TFT display using the SPI interface pins as specified in the pin mapping table
 4. **Optional**: Connect the display backlight to a GPIO pin for brightness control, or tie to 3.3V for always-on operation
 
+## AI Model Performance and Validation
 
+The machine learning component of the smart automated product labeling and traceability system demonstrates exceptional performance in detecting and classifying product defects, as evidenced by comprehensive model validation metrics and real-world testing results. The system employs a specialized YOLOv8 model trained specifically for identifying various types of manufacturing defects in printed circuit boards and electronic components.
+
+The confusion matrix reveals the model's robust classification capabilities across seven distinct defect categories: missing holes, mouse bites, open circuits, shorts, spurs, spurious copper formations, and background elements. The diagonal dominance in the matrix indicates high accuracy rates, with the model achieving over 90% correct classification for most defect types. Particularly noteworthy is the model's ability to distinguish between similar defect patterns, such as differentiating shorts from open circuits, which is critical for accurate quality assessment in the production environment.
 
 ![CONFUSION MATRIX.jpeg](https://github.com/MNADITYA05/Intel-Unnati-Industrial-Training-Program-2025/blob/main/ASSETS/CONFUSION%20MATRIX.jpeg)
 
@@ -80,11 +84,7 @@ The compact form factor makes it suitable for integration into existing producti
 
 ![TEST OUTPUT.jpeg](https://github.com/MNADITYA05/Intel-Unnati-Industrial-Training-Program-2025/blob/main/ASSETS/TEST%20OUTPUT.jpeg)
 
-## AI Model Performance and Validation
 
-The machine learning component of the smart automated product labeling and traceability system demonstrates exceptional performance in detecting and classifying product defects, as evidenced by comprehensive model validation metrics and real-world testing results. The system employs a specialized YOLOv8 model trained specifically for identifying various types of manufacturing defects in printed circuit boards and electronic components.
-
-The confusion matrix reveals the model's robust classification capabilities across seven distinct defect categories: missing holes, mouse bites, open circuits, shorts, spurs, spurious copper formations, and background elements. The diagonal dominance in the matrix indicates high accuracy rates, with the model achieving over 90% correct classification for most defect types. Particularly noteworthy is the model's ability to distinguish between similar defect patterns, such as differentiating shorts from open circuits, which is critical for accurate quality assessment in the production environment.
 
 The visual validation demonstrates the precision of the defect detection system through side-by-side comparison of original PCB images, ground truth annotations, model predictions, and combined overlays. The model successfully identifies and localizes defects with remarkable spatial accuracy, as shown by the close alignment between predicted bounding boxes (red) and actual defect locations (green). This pixel-level precision ensures that the system can reliably flag defective products while minimizing false positives that could disrupt production workflows.
 
