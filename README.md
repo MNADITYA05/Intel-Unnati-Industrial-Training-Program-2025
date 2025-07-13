@@ -97,6 +97,10 @@ This AI-powered defect detection system forms the core intelligence of the quali
 https://drive.google.com/drive/u/1/folders/1wrUGtJpEzwsIgXT9DZ-llEh-kEH1NKC5
 https://drive.google.com/file/d/1WZgZbUF2lxWeafZvHo3Jk_6ksEE0DptM/view?usp=sharing
 
+**DOCUMENTATION**
+
+https://docs.google.com/document/d/1CRH13HJ67RGL-q135VsVkChGFNjz_avz9XVLXGDQkMc/edit?usp=sharing 
+
 
 
 
