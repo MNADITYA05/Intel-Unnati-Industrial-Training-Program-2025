@@ -48,5 +48,11 @@ The comprehensive training results showcase the model's learning progression acr
 
 This AI-powered defect detection system forms the core intelligence of the quality assessment pipeline, enabling automated decision-making that integrates seamlessly with the barcode verification and traceability database. The combination of high accuracy, precise localization, and robust classification capabilities ensures that the system can maintain stringent quality standards while supporting high-throughput manufacturing operations.
 
+**DEMO**
+
+https://drive.google.com/drive/u/1/folders/1wrUGtJpEzwsIgXT9DZ-llEh-kEH1NKC5
+https://drive.google.com/file/d/1WZgZbUF2lxWeafZvHo3Jk_6ksEE0DptM/view?usp=sharing
+
+
 
 
